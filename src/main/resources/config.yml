@@ -1,0 +1,22 @@
+# See http://dev.bukkit.org/server-mods/voidsickness/pages/configuration
+
+min_y: -10
+
+sickness_message: "You have been pulled from the void, but you're suffering its effects!"
+exempt_message: "You have been pulled from the void, with no ill effects!"
+
+port_sound: mob.endermen.portal
+
+effects:
+- effect: HUNGER
+  duration: 60
+- effect: BLINDNESS
+  duration: 15
+- effect: SLOW
+  duration: 30
+  amplifier: 2
+- effect: WEAKNESS
+  duration: 60
+  amplifier: 2
+- effect: CONFUSION
+  duration: 15

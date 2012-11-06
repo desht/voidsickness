@@ -1,0 +1,24 @@
+name: VoidSickness
+main: me.desht.voidsickness.VoidSickness
+author: desht
+version: ${project.version}
+
+commands:
+  vsick:
+    description: VoidSickness management
+    usage: |
+      /<command> reload
+
+permissions:
+  vsick.admin:
+    description: Gives all VoidSickness permission nodes
+    default: op
+    children:
+      voidsickness.exempt: true
+  voidsickness.exempt:
+    description: Gives immunity to sickness effects
+    default: op
+  voidsickness.commands.reload:
+    description: Allows plugin config to be reloaded
+    default: op
+    
