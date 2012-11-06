@@ -1,6 +1,6 @@
 # VoidSickness
 
-PortableHole is a Bukkit plugin which allows players to be pulled from the void and returned to the world's spawn point
+VoidSickness is a Bukkit plugin which allows players to be pulled from the void and returned to the world's spawn point
 or a configurable location, optionally applying a configurable set of potion effects.
 
 ## Installation
